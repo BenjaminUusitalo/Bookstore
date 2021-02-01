@@ -10,7 +10,7 @@ public class BookController {
 	public String greeting(@RequestParam(name="title") String title, 
 			@RequestParam(name ="author") String author,@RequestParam(name="year") String year, 
 			@RequestParam(name ="isbn") String isbn,@RequestParam(name ="price") String price, Model book) {
-		return "index";
+		return "index"; 
 	}
 
 }
